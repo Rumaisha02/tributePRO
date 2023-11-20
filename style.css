@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0; 
+    position: relative;
+}
+html{
+    scroll-behavior: auto !important;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: 10px solid palevioletred;
+    background-color: rgb(247, 233, 238);
+    padding-bottom: 100px;
+}
+/* //UPPER CONTAINER */
+#container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid black; */
+    /* flex-direction: column; */
+}
+#initials{
+margin-top: 100px;
+ height: 45vh;
+ width: 75%;
+ /* border: 5px solid purple; */
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ gap: 70px;
+}
+#image{
+ height: 45vh;
+ width: 45vh;
+ /* border: 5px solid black; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.imagee{
+    
+    height: 42.5vh;
+    width: 42.5vh;
+    align-self: center;
+    justify-self: center;
+    border-radius: 25%;
+    position: relative;
+    object-fit: cover; 
+    /* border: 5px solid black; */
+    
+}
+#headings{
+    /* height: 45vh;
+    width: 70vh; */
+    font-size: 2rem;
+    font-weight: 600;
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-family: 'Playfair Display', serif;
+    /* border: 5px solid red; */
+    /* padding-left: 100px; */
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.h3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    /* border: 2px solid orange; */
+}
+h3{
+align-self:flex-end ;
+font-size: 1rem;
+position: relative;
+}
+
+
+
+/* PARA CONTAINER */
+#container-content{
+    width: 68%;
+    margin-top: 10px;
+    display:inline-block;
+    justify-content: center;
+    /* border: 5px solid black; */
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+}
+p{
+    word-spacing: 5px;
+    /* font-weight: 700; */
+    font-family: 'Open Sans', sans-serif;
+}
+.link{
+display: flex;
+justify-content: flex-end;
+/* border: 5px solid black; */
+padding-top: 30px;
+}
+#extracontent{
+font-size: 1.2rem;
+}
